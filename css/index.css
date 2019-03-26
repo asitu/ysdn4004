@@ -1,0 +1,469 @@
+body {
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+@font-face {
+  font-family: "Frosty";
+  src: url(/assets/font/Frosty.otf) format("truetype");
+}
+p.customfont { 
+  font-family: "My Custom Font", Verdana, Tahoma;
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 90vh;
+  color:black;
+  /* Flexbox stuff */
+  display: flex;
+  /* Text styles */
+  text-align: left;
+   /* Background styles */
+   background-image: url(../assets/img/hero-image.png);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Varela Round', sans-serif;
+}
+.hero .hero-title {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 80px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 44px;
+  letter-spacing: normal;
+}
+#hero-container{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#logo{
+    width: 93px;
+    height: 35px;
+    margin: 0;
+    position: relative;
+}
+
+#tagline {
+  margin-top: 270px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.hero p{
+  color: black;
+  font-size: 24px;
+  font-family: 'Varela Round', sans-serif;
+}
+#mockup-hero img{
+  padding-top: 10vh;
+}
+
+#mockup-hero a{
+  font-family: Frosty;
+
+}
+
+#section-1 {
+  margin-top: 130px;
+  padding-bottom: 100px
+}
+#section-2 {
+  margin-top: 130px;
+  padding-bottom: 100px
+}
+#section-3 {
+  margin-top: 90px;
+  padding-bottom: 100px;
+  overflow:hidden
+}
+h2{
+  font-size: 26px;
+  font-weight: bold;
+  color: #343a40
+}
+h3{
+  font-size: 26px;
+  color: #727272
+}
+#section-3 h4{
+  color: #ffffff;
+  font-size: 31px;
+  font-weight: 600;
+  opacity: 0.75;
+}
+p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 28px;
+  letter-spacing: normal;
+  color: #727272;
+}
+#section-organizers{
+  width: 100vw;
+  height: 22vh;
+  background-color: #F6F6F6;
+  background-size: cover;
+}
+#section-resale{
+  width: 100vw;
+  height: 45vh;
+  margin:0;
+  background-color: #f6f6f6;
+  background-size: cover;
+}
+#section-resale-1{
+  padding: 15vh 100px 0 300px  
+}
+
+#section-resale-img{
+  padding-left: 100px;
+  padding-right: 300px
+}
+
+#feature-desc{
+  padding-right: 180px;
+  padding-left: 180px
+}
+#section-1 #feature-desc{
+  margin-right: 160px;
+  margin-left: 160px;
+}
+
+#image-center{
+  z-index: 3;
+  padding-top: 20px;
+  position: relative;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#iphone{
+  z-index: 4;
+}
+
+#groupbuygif, #concertmodegif{
+  position: absolute;
+  margin-top: 32px;
+  margin-left: -245px;
+  z-index: -1;
+}
+
+ #concertmodegif{
+  position: absolute;
+  margin-left: -245px;
+  z-index: -1;
+}
+
+#image-left img{
+  position: absolute;
+  display:flex;
+  align-items: center !important; 
+  justify-content: center !important;
+  margin-top: -455px;
+  margin-left: 15%;
+}
+#image-right img{
+  position: absolute;
+  display:flex;
+  align-items: center !important; 
+  justify-content: center !important;
+  margin-top: -455px;
+  margin-left: 53%;
+}
+#profile-circles-right{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+}
+#user1{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -290px;
+  margin-left: 780px;
+  animation: float 3s ease-in-out infinite;
+}
+#user2{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -150px;
+  margin-left: 720px;
+  animation: float 3s ease-in-out infinite;
+}
+#user3{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -380px;
+  margin-left: 650px;
+  animation: float 5s ease-in-out infinite;
+}
+#user4{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -98px;
+  margin-left: 860px;
+  animation: float 3s ease-in-out infinite;
+}
+#user5{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -500px;
+  margin-left: 770px;
+  animation: float 5s ease-in-out infinite;
+}
+#user6{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  margin-top: -410px;
+  margin-left: 900px;
+  animation: float 3s ease-in-out infinite;
+}
+#profile-circles-left{
+  position: absolute;
+  justify-content: center;
+  z-index: 4;
+  animation: float 5s ease-in-out infinite;
+}
+#user7{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -200px;
+  margin-left: 360px;
+  animation: float 3s ease-in-out infinite;
+}
+#user8{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -315px;
+  margin-left: 280px;
+  animation: float 5s ease-in-out infinite;
+}
+#user9{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -115px;
+  margin-left: 220px;
+  animation: float 3s ease-in-out infinite;
+}
+#user10{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -245px;
+  margin-left: 120px;
+  animation: float 3s ease-in-out infinite;
+}
+#user11{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -430px;
+  margin-left: 140px;
+  animation: float 5s ease-in-out infinite;
+}
+#user12{
+  position: absolute;
+  justify-content: left;
+  z-index: 4;
+  margin-top: -480px;
+  margin-left: 300px;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-8px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+.hero a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  font-size: 24px
+}
+.hero a:hover {
+  color: #BFBFBF;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none
+}
+
+.cards{
+    width: 158px;
+    height: 298px;
+    border-radius: 4px;
+    background:linear-gradient(335deg, #35edc3, #1d8792 25%, rgba(0, 13, 88, 0.8)), ;
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px
+  }
+  
+#card-1{
+  background-image: url(../assets/img/crush.png);
+}
+#card-2{
+  background-image: url(../assets/img/musicfest.png);
+  margin-top: 40px
+}
+#card-3{
+  background-image: url(../assets/img/brunomars.png);
+}
+#card-4{
+  background-image: url(../assets/img/michaelbuble.png);
+  margin-top: 40px
+}
+#card-5{
+  background-image: url(../assets/img/musical.png);
+}
+#eventname{
+  margin-top: 20vh
+}
+.theme-switch{
+  clear: both
+}
+/* 
+#testimonial{
+  height: 400px;
+  background-color: #1FC49F
+}
+#testimonial p{
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 300px;
+  padding-right: 300px
+}
+#testimonial-text{
+  padding-top: 100px
+} */
+
+#footer{
+  height: 300px;
+  background-image: radial-gradient(circle at 49% 0, #11447c, #051140);
+}
+#footer-content{
+  padding-top: 100px;
+  
+}
+#footer h2{
+  color: white
+}
+#footer h6{
+  color: lightgrey;
+  font-size: 14px;
+  
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  #phone-mockup-hero img{
+    width: 350px;
+    padding-top: 100px
+  }
+  #section-resale-img img{
+    width: 250px
+  }
+ }
+
+ /* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) { 
+  #phone-mockup-hero img{
+    width: 400px;
+    padding-top: 100px
+  }
+  #tagline h1{
+    font-size: 32px;
+    padding-right: 100px;
+    line-height: 46px
+  }
+  #image-left img{
+    position: absolute;
+    display:flex;
+    align-items: center !important; 
+    justify-content: center !important;
+    margin-top: -455px;
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 1600px) {
+  #image-left img{
+    position: absolute;
+    display:flex;
+    align-items: center !important; 
+    justify-content: center !important;
+    margin-top: -455px;
+    margin-left: 18%;
+  }
+  #section-1 #feature-desc{
+    margin-left: 250px;
+    margin-right: 250px
+  }
+  #section-resale-img img{
+    width: 300px
+  }
+}
+
+@media (min-width: 1800px) { 
+  #phone-mockup-hero img{
+    width: 450px;
+    padding-top: 100px
+  }
+  #image-left img{
+    position: absolute;
+    display:flex;
+    align-items: center !important; 
+    justify-content: center !important;
+    margin-top: -455px;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 1900px) { 
+  #image-left img{
+    position: absolute;
+    display:flex;
+    align-items: center !important; 
+    justify-content: center !important;
+    margin-top: -455px;
+    margin-left: 25%;
+  }
+}
