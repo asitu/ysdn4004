@@ -53,6 +53,7 @@ p.customfont {
   margin-top: 270px;
   margin-left: 0;
   padding-left: 0;
+  padding-right: 90px;
 }
 .hero p{
   color: black;
@@ -65,7 +66,6 @@ p.customfont {
 
 #mockup-hero a{
   font-family: Frosty;
-
 }
 
 #section-1 {
