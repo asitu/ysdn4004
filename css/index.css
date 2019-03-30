@@ -26,13 +26,12 @@ p.customfont {
    background-position: center center;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   font-family: 'Varela Round', sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 .hero .hero-title {
   margin-top: 0;
   margin-bottom: 0.5em;
   font-size: 80px;
-  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   line-height: 44px;
@@ -77,10 +76,35 @@ p.customfont {
   background-position: center center;
   background-repeat: no-repeat;
 }
-#section-2 {
+#section-2{
   margin-top: 130px;
   padding-bottom: 100px
 }
+
+#section-3{
+  background-color: #F2F2F2;
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+
+#section-3 .title{
+  padding-left: 150px
+}
+.title p{
+  width: 500px
+}
+
+#section-3 .dancestudios{
+  padding-left: 80px
+}
+
+#section-4{
+  
+}
+
+
+
+
 h2{
   font-size: 26px;
   font-weight: bold;
@@ -88,8 +112,13 @@ h2{
 }
 h3{
   font-size: 26px;
-  color: #727272
+  color: #343a40
 }
+#fesature-description{
+  margin-top: 200px
+
+}
+
 
 p{
   font-size: 18px;
@@ -109,14 +138,12 @@ p{
 }
 
 #about p{
-  padding-right: 350px;
-  padding-left: 350px;
+  padding-right: 450px;
+  padding-left: 450px;
 }
 
 #dance-genres{
   text-align: center;
-
-
 }
 
 #feature-desc{
