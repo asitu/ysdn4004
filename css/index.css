@@ -69,17 +69,17 @@ p.customfont {
 }
 
 #section-1 {
-  margin-top: 130px;
-  padding-bottom: 100px
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  background-image: url(../assets/img/ids-mockup-06.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 #section-2 {
   margin-top: 130px;
   padding-bottom: 100px
-}
-#section-3 {
-  margin-top: 90px;
-  padding-bottom: 100px;
-  overflow:hidden
 }
 h2{
   font-size: 26px;
@@ -90,12 +90,7 @@ h3{
   font-size: 26px;
   color: #727272
 }
-#section-3 h4{
-  color: #ffffff;
-  font-size: 31px;
-  font-weight: 600;
-  opacity: 0.75;
-}
+
 p{
   font-size: 18px;
   font-weight: normal;
@@ -105,26 +100,23 @@ p{
   letter-spacing: normal;
   color: #727272;
 }
-#section-organizers{
+#about{
   width: 100vw;
-  height: 22vh;
+  height: 60vh;
   background-color: #F6F6F6;
   background-size: cover;
-}
-#section-resale{
-  width: 100vw;
-  height: 45vh;
-  margin:0;
-  background-color: #f6f6f6;
-  background-size: cover;
-}
-#section-resale-1{
-  padding: 15vh 100px 0 300px  
+  padding-top: 20px
 }
 
-#section-resale-img{
-  padding-left: 100px;
-  padding-right: 300px
+#about p{
+  padding-right: 350px;
+  padding-left: 350px;
+}
+
+#dance-genres{
+  text-align: center;
+
+
 }
 
 #feature-desc{
@@ -144,22 +136,6 @@ p{
   justify-content: center !important;
 }
 
-#iphone{
-  z-index: 4;
-}
-
-#groupbuygif, #concertmodegif{
-  position: absolute;
-  margin-top: 32px;
-  margin-left: -245px;
-  z-index: -1;
-}
-
- #concertmodegif{
-  position: absolute;
-  margin-left: -245px;
-  z-index: -1;
-}
 
 #image-left img{
   position: absolute;
@@ -177,124 +153,8 @@ p{
   margin-top: -455px;
   margin-left: 53%;
 }
-#profile-circles-right{
-  position: absolute;
-  justify-content: center;
-  z-index: 4;
-}
-#user1{
-  position: absolute;
-  justify-content: center;
-  z-index: 4;
-  margin-top: -290px;
-  margin-left: 780px;
-  animation: float 3s ease-in-out infinite;
-}
-#user2{
-  position: absolute;
-  justify-content: center;
-  z-index: 4;
-  margin-top: -150px;
-  margin-left: 720px;
-  animation: float 3s ease-in-out infinite;
-}
-#user3{
-  position: absolute;
-  justify-content: center;
-  z-index: 4;
-  margin-top: -380px;
-  margin-left: 650px;
-  animation: float 5s ease-in-out infinite;
-}
-#user4{
-  position: absolute;
-  justify-content: center;
-  z-index: 4;
-  margin-top: -98px;
-  margin-left: 860px;
-  animation: float 3s ease-in-out infinite;
-}
-#user5{
-  position: absolute;
-  justify-content: center;
-  z-index: 4;
-  margin-top: -500px;
-  margin-left: 770px;
-  animation: float 5s ease-in-out infinite;
-}
-#user6{
-  position: absolute;
-  justify-content: center;
-  z-index: 4;
-  margin-top: -410px;
-  margin-left: 900px;
-  animation: float 3s ease-in-out infinite;
-}
-#profile-circles-left{
-  position: absolute;
-  justify-content: center;
-  z-index: 4;
-  animation: float 5s ease-in-out infinite;
-}
-#user7{
-  position: absolute;
-  justify-content: left;
-  z-index: 4;
-  margin-top: -200px;
-  margin-left: 360px;
-  animation: float 3s ease-in-out infinite;
-}
-#user8{
-  position: absolute;
-  justify-content: left;
-  z-index: 4;
-  margin-top: -315px;
-  margin-left: 280px;
-  animation: float 5s ease-in-out infinite;
-}
-#user9{
-  position: absolute;
-  justify-content: left;
-  z-index: 4;
-  margin-top: -115px;
-  margin-left: 220px;
-  animation: float 3s ease-in-out infinite;
-}
-#user10{
-  position: absolute;
-  justify-content: left;
-  z-index: 4;
-  margin-top: -245px;
-  margin-left: 120px;
-  animation: float 3s ease-in-out infinite;
-}
-#user11{
-  position: absolute;
-  justify-content: left;
-  z-index: 4;
-  margin-top: -430px;
-  margin-left: 140px;
-  animation: float 5s ease-in-out infinite;
-}
-#user12{
-  position: absolute;
-  justify-content: left;
-  z-index: 4;
-  margin-top: -480px;
-  margin-left: 300px;
-  animation: float 3s ease-in-out infinite;
-}
-@keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-8px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
-}
+
+
 .hero a {
   color: black;
   text-decoration: none;
@@ -320,45 +180,11 @@ a:hover{
     margin-right: 25px;
     margin-left: 25px
   }
-  
-#card-1{
-  background-image: url(../assets/img/crush.png);
-}
-#card-2{
-  background-image: url(../assets/img/musicfest.png);
-  margin-top: 40px
-}
-#card-3{
-  background-image: url(../assets/img/brunomars.png);
-}
-#card-4{
-  background-image: url(../assets/img/michaelbuble.png);
-  margin-top: 40px
-}
-#card-5{
-  background-image: url(../assets/img/musical.png);
-}
+
 #eventname{
   margin-top: 20vh
 }
-.theme-switch{
-  clear: both
-}
-/* 
-#testimonial{
-  height: 400px;
-  background-color: #1FC49F
-}
-#testimonial p{
-  color: white;
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 300px;
-  padding-right: 300px
-}
-#testimonial-text{
-  padding-top: 100px
-} */
+
 
 #footer{
   height: 300px;
