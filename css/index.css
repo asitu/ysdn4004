@@ -99,9 +99,25 @@ p.customfont {
 }
 
 #section-4{
-  
+  margin-top: 130px;
+  padding-bottom: 100px;
 }
 
+#section-4 .location{
+  padding-left: 200px;
+}
+
+#section-4 .title{
+  padding-bottom: 40px
+}
+
+a{
+  color: #DD4A9A
+}
+
+a:hover{
+  color: #5795D0
+}
 
 
 
@@ -116,9 +132,10 @@ h3{
 }
 #fesature-description{
   margin-top: 200px
-
 }
-
+h4{
+  font-size: 20px;
+}
 
 p{
   font-size: 18px;
@@ -144,15 +161,6 @@ p{
 
 #dance-genres{
   text-align: center;
-}
-
-#feature-desc{
-  padding-right: 180px;
-  padding-left: 180px
-}
-#section-1 #feature-desc{
-  margin-right: 160px;
-  margin-left: 160px;
 }
 
 #image-center{
@@ -214,7 +222,7 @@ a:hover{
 
 
 #footer{
-  height: 300px;
+  padding-bottom: 100px;
   background-image: radial-gradient(circle at 49% 0, #11447c, #051140);
 }
 #footer-content{
