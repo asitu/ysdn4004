@@ -225,6 +225,10 @@ a:hover{
   padding-bottom: 100px;
   background-image: radial-gradient(circle at 49% 0, #11447c, #051140);
 }
+#footer #pattern {
+  position: absolute
+
+}
 #footer-content{
   padding-top: 100px;
   
