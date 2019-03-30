@@ -81,6 +81,13 @@ p.customfont {
   padding-bottom: 100px
 }
 
+#gif1{
+  position: absolute;
+  margin-left: -273px;
+  margin-top: 31px;
+  z-index: -1
+}
+
 #section-3{
   background-color: #F2F2F2;
   padding-top: 130px;
@@ -112,11 +119,11 @@ p.customfont {
 }
 
 a{
-  color: #DD4A9A
+  color: #5795D0
 }
 
 a:hover{
-  color: #5795D0
+  color: #DD4A9A
 }
 
 
@@ -149,7 +156,6 @@ p{
 #about{
   width: 100vw;
   height: 60vh;
-  background-color: #F6F6F6;
   background-size: cover;
   padding-top: 20px
 }
@@ -163,32 +169,6 @@ p{
   text-align: center;
 }
 
-#image-center{
-  z-index: 3;
-  padding-top: 20px;
-  position: relative;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-
-#image-left img{
-  position: absolute;
-  display:flex;
-  align-items: center !important; 
-  justify-content: center !important;
-  margin-top: -455px;
-  margin-left: 15%;
-}
-#image-right img{
-  position: absolute;
-  display:flex;
-  align-items: center !important; 
-  justify-content: center !important;
-  margin-top: -455px;
-  margin-left: 53%;
-}
-
 
 .hero a {
   color: black;
@@ -198,7 +178,7 @@ p{
   font-size: 24px
 }
 .hero a:hover {
-  color: #BFBFBF;
+  color: #DD4A9A;
   text-decoration: none;
 }
 
