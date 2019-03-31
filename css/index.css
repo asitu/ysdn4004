@@ -84,7 +84,7 @@ p.customfont {
 #gif1{
   position: absolute;
   margin-left: -273px;
-  margin-top: 31px;
+  margin-top: 32px;
   z-index: -1
 }
 
@@ -169,7 +169,6 @@ p{
   text-align: center;
 }
 
-
 .hero a {
   color: black;
   text-decoration: none;
@@ -184,20 +183,6 @@ p{
 
 a:hover{
   text-decoration: none
-}
-
-.cards{
-    width: 158px;
-    height: 298px;
-    border-radius: 4px;
-    background:linear-gradient(335deg, #35edc3, #1d8792 25%, rgba(0, 13, 88, 0.8)), ;
-    float: left;
-    margin-right: 25px;
-    margin-left: 25px
-  }
-
-#eventname{
-  margin-top: 20vh
 }
 
 
@@ -218,9 +203,19 @@ a:hover{
 }
 #footer h6{
   color: lightgrey;
-  font-size: 14px;
-  
+  font-size: 14px;  
 }
+
+#logos img{
+  margin-left: 10px;
+  margin-right: 10px
+}
+
+#footer h6{
+  opacity: 0.5;
+
+}
+
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
